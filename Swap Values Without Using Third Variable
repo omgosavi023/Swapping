@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("Enter Num");
+	scanf("%d %d",&a,&b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("\n value of a=%d",a);
+	printf("\n valude of b=%d",b);
+return 0;
+}
